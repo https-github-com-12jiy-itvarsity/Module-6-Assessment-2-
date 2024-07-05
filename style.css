@@ -1,0 +1,132 @@
+/************MENU***********/
+
+.menu {
+  background-color: black;
+  height: 60px;
+}
+
+.menu a {
+  color: red;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu ul {
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+
+.menu a:hover {
+  background-color: rgb(59, 50, 50);
+  height: 60px;
+}
+
+/************HEADER***********/
+.header {
+  background-color: red;
+  height: 80px;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+
+/************PARAGRAPH***********/
+
+#paragraph {
+  text-align: center;
+  font-weight: 100;
+  color: white;
+}
+
+/************CAR IMAGES***********/
+
+.car img {
+  padding-left: 270px;
+  padding-top: 40px;
+}
+
+/************BMW***********/
+
+.bmw h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 50px;
+}
+
+.bmw a {
+  text-decoration: none;
+}
+
+.benz img {
+  width: 59%;
+  padding-left: 270px;
+}
+
+.bmw h2 {
+  color: red;
+  text-align: center;
+  background-color: black;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.bmw img {
+  padding-left: 400px;
+  display: inline-block;
+  width: 43%;
+}
+
+.bmw2 img {
+  width: 43%;
+  padding-left: 400px;
+}
+
+.container {
+  color: black;
+}
+
+/* Style inputs with type="text", select elements, and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+/* Add background color and padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
